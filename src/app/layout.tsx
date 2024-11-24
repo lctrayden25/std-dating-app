@@ -32,7 +32,7 @@ export default function RootLayout({
 			>
 				<NextUIProvider>
 					<TopNavbar />
-					{children}
+					<div className="max-w-screen-lg mx-auto py-5">{children} </div>
 				</NextUIProvider>
 			</body>
 		</html>

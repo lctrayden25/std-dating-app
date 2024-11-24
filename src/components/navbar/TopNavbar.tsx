@@ -9,7 +9,7 @@ import {
 } from "@nextui-org/react";
 const TopNavbar = () => {
 	return (
-		<Navbar>
+		<Navbar className="bg-yellow-200">
 			<NavbarBrand>
 				<p className="font-bold text-inherit">DatingApp</p>
 			</NavbarBrand>
@@ -17,15 +17,8 @@ const TopNavbar = () => {
 				<NavbarItem>
 					<Link href="/member">Member</Link>
 				</NavbarItem>
-				<NavbarItem
-				// isActive
-				>
-					<Link
-						href="/listings"
-						// aria-current="page"
-					>
-						Listings
-					</Link>
+				<NavbarItem>
+					<Link href="/listings">Listings</Link>
 				</NavbarItem>
 				<NavbarItem>
 					<Link href="/message">Message</Link>
